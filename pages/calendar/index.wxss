@@ -1,0 +1,84 @@
+/* pages/calendar/index.wxss */
+.topBar{
+      position: relative;
+      background-color: #8D91FF;
+      width: 100%;
+      color: white;
+      font-family: '微软雅黑';
+      font-weight: 200;
+  }
+.whichDate{
+      display: inline-block;
+      padding: 0px 0rpx 10rpx 20rpx;
+      font-size: 70rpx;
+  }
+.whichYear{
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 15rpx;
+    font-size: 28rpx;
+}
+.nongliDetail{
+    position: absolute;
+    font-weight: 700;
+    right: 10rpx;
+    bottom: 10rpx;
+}
+.monthBox{
+    width: 96%;
+    padding: 0 2%;
+}
+.weekDay{
+    display: flex;
+    flex-grow: 1;
+}
+.week{
+    display: flex;
+    width: 200rpx;
+    margin-top: 30rpx;
+    margin-bottom: 10rpx;
+    justify-content: center;
+    font-family:'微软雅黑';
+    font-weight: 200;
+}
+.monthDay{
+    width: 100%;
+}
+.tr{
+    width: 100%;
+    display: flex;
+    flex-grow: 1;
+}
+.day{
+    display: block;
+    width: 200rpx;
+    height: 80rpx;
+    padding-top: 10rpx;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5rpx;
+    text-align: center;
+    color: #999;
+    border: 1rpx solid white;
+}
+.hideDayInfo{
+    border: 1rpx solid white;
+}
+.showDayInfo{
+    border:1rpx solid #8D91FF;
+}
+.today{
+    background-color: #8D91FF;
+    color:white;
+}
+.gongli{
+    display: block;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.nongli{
+    display: block;
+    font-family: "微软雅黑";
+    font-weight: 200;
+    font-size: 20rpx;
+    text-align: center;
+}

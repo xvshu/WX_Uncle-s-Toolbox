@@ -1,0 +1,20 @@
+<view class="content">
+  <view class="layout-top">
+    <view class="screen">
+     {{workText}}
+    </view>
+    <view class="screen">
+     {{countDownMinute}}:  {{countDownSecond}}
+    </view>
+  </view>
+    
+  <view class="layout-bottom">
+  <view class="btnGroup">
+      <view class="item orange full" bindtap="workTimeAuto" id="auto">{{workAutoText}}  </view>
+    </view>
+    <view class="btnGroup">
+      <view class="item green zero" bindtap="workTime" id="work">工作</view>
+      <view class="item blue zero" bindtap="restTime" id="rest">休息</view>
+    </view>
+  </view>
+</view>
